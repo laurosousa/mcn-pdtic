@@ -103,7 +103,11 @@ dissertação e as pendências.
   o app deixa a atribuição para o avaliador. Preencher o mapeamento oficial do caso UFRR
   (diretamente na avaliação ou na página pública) quando o autor o fornecer.
 - **Tirar os .docx do rastreamento do Git (.gitignore + limpar histórico) antes de
-  publicar no GitHub**.
+  publicar no GitHub** — concluído em 25/09/2026: repositório privado criado em
+  https://github.com/laurosousa/mcn-pdtic, publicado a partir do ramo "publicacao"
+  (sem histórico antigo; .docx, `attached_assets/` e `.agents/` no .gitignore).
+  O trabalho continua no ramo "publicacao"; o envio é feito com
+  `git push github publicacao:main`.
 - **Verificar o `api-server` antes de publicar** — o `typecheck` na raiz do monorepo falha
   em `artifacts/api-server` (TS6305: `lib/integrations-anthropic-ai` sem build; erro
   pré-existente, não relacionado ao app). Resolver/buildar a lib antes de publicar.
