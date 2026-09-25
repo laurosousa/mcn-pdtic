@@ -1,0 +1,31 @@
+kind = "web"
+previewPath = "/"
+title = "MCN-PDTIC | Matriz de Conformidade Normativa"
+version = "1.0.0"
+id = "artifacts/mcn-pdtic"
+router = "path"
+
+[[integratedSkills]]
+name = "react-vite"
+version = "1.0.0"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 21746
+
+[services.development]
+run = "pnpm --filter @workspace/mcn-pdtic run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/mcn-pdtic", "run", "build" ]
+publicDir = "artifacts/mcn-pdtic/dist/public"
+serve = "static"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "21746"
+BASE_PATH = "/"
