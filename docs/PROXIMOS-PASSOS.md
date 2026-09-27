@@ -1,7 +1,7 @@
 # Próximos passos — MCN-PDTIC (app)
 
 Status do desenvolvimento do app em `artifacts/mcn-pdtic`, alinhado a `docs/REQUISITOS-PTT.md`.
-Última atualização: 2026-09-25.
+Última atualização: 2026-09-27.
 
 ## Feito (itens 1–10)
 
@@ -69,8 +69,12 @@ Status do desenvolvimento do app em `artifacts/mcn-pdtic`, alinhado a `docs/REQU
 
 ## Próximo item
 
-Nenhum — os 10 itens de `REQUISITOS-PTT.md` estão concluídos; seguem os ajustes à
-dissertação e as pendências.
+Nenhum no app — os 10 itens de `REQUISITOS-PTT.md` estão concluídos.
+
+Próximo passo da dissertação: **redigir o parágrafo de análise do capítulo de resultados
+citando Santos et al. (2020)** — modelo de maturidade em governança e gestão de TIC para o
+SISP — a partir do mapeamento dos 50 itens CP/NC da MCN aos domínios do modelo
+(`docs/Mapeamento_MCN_x_Modelo_SISP.xlsx`; 13 itens fora do modelo, classificados como GAP).
 
 ## Ajustes a refletir na dissertação
 
@@ -98,10 +102,18 @@ dissertação e as pendências.
   ações do PDTIC"; "Plano de Transformação Digital e iniciativas de digitalização do
   PDTIC"), pois a fonte não traz número de seção. Pendente conferência no PDTIC para
   precisar as seções.
-- **Mapeamento dos 50 itens CP/NC da UFRR aos padrões de lacuna** — o Quadro 16 da
-  dissertação define os 5 padrões, mas nenhum doc registra a atribuição por requisito;
-  o app deixa a atribuição para o avaliador. Preencher o mapeamento oficial do caso UFRR
-  (diretamente na avaliação ou na página pública) quando o autor o fornecer.
+- **Mapeamento dos 50 itens CP/NC** — concluído em 27/09/2026: registrado em
+  `docs/Mapeamento_MCN_x_Modelo_SISP.xlsx` — 50 itens CP/NC da MCN do PDTIC da UFRR
+  mapeados aos domínios do modelo de maturidade de Santos et al. (2020) para o SISP,
+  com 13 itens classificados como GAP (fora do modelo).
+- **Busca bibliográfica complementar da revisão sistemática (PRISMA 2020)** — concluída
+  em 27/09/2026: aba Triagem de `docs/Revisao_Sistematica_PRISMA_MCN.xlsx` populada com
+  20 registros — 7 brutos do Semantic Scholar (buscas de 26/09; 5 únicos + 2 duplicatas
+  internas marcadas, CE-3) e 13 referências suplementares fornecidas já verificadas
+  (item 7c, marcadas "fonte suplementar"); linha-exemplo removida; aba Buscas atualizada
+  com as buscas de 26/09 e os 3 eixos suplementares de 27/09 (20 identificados ×
+  20 lançados — o fluxo fecha). As etapas de triagem (título/resumo e leitura integral)
+  ficam em branco para decisão.
 - **Tirar os .docx do rastreamento do Git (.gitignore + limpar histórico) antes de
   publicar no GitHub** — concluído em 25/09/2026: repositório privado criado em
   https://github.com/laurosousa/mcn-pdtic, publicado a partir do ramo "publicacao"
