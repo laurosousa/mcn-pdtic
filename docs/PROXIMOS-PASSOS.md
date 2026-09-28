@@ -1,7 +1,49 @@
 # Próximos passos — MCN-PDTIC (app)
 
 Status do desenvolvimento do app em `artifacts/mcn-pdtic`, alinhado a `docs/REQUISITOS-PTT.md`.
-Última atualização: 2026-09-27.
+Última atualização: 2026-09-27 (v6 reestruturada).
+
+## Dissertação v6 — reestruturação do item A (27/09/2026)
+
+Gerada `docs/DISSERTACAO_atualizada_PTT_v6.docx` a partir da v5
+(`docs/revisao/DISSERTACAO_v5_backup_pre-reestrutura-27-09.docx`; pipeline em
+`docs/revisao/reestrutura_v6.py` + `postprocess_v6.py`; verificação em `verifica_v6.py`).
+Cópia de entrega: `Downloads/DISSERTACAO_atualizada_PTT_v6.docx`.
+
+1. **MCN virou capítulo próprio** (nota do orientador): antiga Seção 3.6 →
+   **Capítulo 4 "MATRIZ DE CONFORMIDADE NORMATIVA: APRESENTAÇÃO DO INSTRUMENTO DE
+   ANÁLISE"** (4.1–4.4); caps. seguintes renumerados (Resultados→5, PTT→6,
+   Considerações→7); 39 referências cruzadas + 6 refs quebradas ("no Seção N") corrigidas;
+   gramática "no Capítulo" ajustada.
+2. **Quadro 6 novo na Seção 3.2.1** (nota do orientador): categorias de dados extraídos
+   dos documentos (instrumento da pesquisa documental). Quadros renumerados pela nova
+   ordem de citação (1–20; antigos 9/10 passaram a 7/8; 6/7/8 → 9/10/11; 11–19 → 12–20).
+   Apêndice A preservado (numeração interna do PDTIC intocada).
+3. **1.4.3 → continuidade de 1.4** (comentário #31): títulos 1.4.3/1.4.3.1 removidos,
+   texto integrado ao corpo da seção.
+4. **Quadro 5 realinhado aos objetivos** (#133/#134/#135/#136): linhas reescritas
+   (removidos "??????" e "Não há"); fonte da linha a) restrita ao Conjunto B
+   (SciELO/SPELL/BDTD saíram da coleta — revisão de literatura fica no cap. 2);
+   d) com as quatro dimensões; e) marcado como identificação descritiva.
+5. **Seção 1.3** (#26/#27): removida a promessa de "fatores explicativos" (pesquisa
+   descritiva); "8.000 estudantes" → "mais de 15 mil matrículas de graduação (Inep, 2025)"
+   (Censo da Educação Superior 2024: 15.637) + referência INEP inserida.
+6. **Seção 3.7 (validação)** (#170): trecho de abertura dispensável removido (#175 já
+   respondido no texto — armazenamento em pasta institucional).
+7. **Comentários do Word**: 10 marcados como resolvidos (#22, #27, #31, #133–#136, #169,
+   #170, #175); #169 atualizado ("Guia + planilha" → "Guia + aplicação web"). `updateFields`
+   ativado — o **SUMÁRIO renumera ao abrir no Word** (aceitar a atualização de campos).
+   **Abertos por decisão**: #20/#21, #23/#24, #26 (standby do orientador); #176 (exige o
+   manual de formatação); #132, #146, #172, #174 (respostas do autor a observações da banca).
+
+### Pendências de dissertação (além do app)
+
+- Uniformizar "observações" → "Justificativa" (agora Seção 4.3, ex-3.6.3).
+- Apêndice com o mapeamento dos 50 itens CP/NC aos padrões de lacuna.
+- Decidir a triagem PRISMA (título/resumo e leitura integral) e atualizar a Seção 2.1
+  (datas das buscas de 26–27/09/2026 × "outubro a dezembro de 2025" no texto).
+- #176: obter do manual o formato da linha "Fonte:" e padronizar.
+- Objetivo f) ainda menciona "exportação em planilha eletrônica" (em standby — #23/#24).
 
 ## Feito (itens 1–10)
 
