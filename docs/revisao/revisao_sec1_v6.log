@@ -1,0 +1,25 @@
+replace: 'Sob a ótica da Teoria Neoinstitucional, esse fenômeno é conc' x1
+replace: 'e a sociedade civil, introduzem visões' x1
+replace: 'os documentos necessários: PDTIC, PDI e Relatórios de Gestão' x1
+replace: 'nas práticas de gestão adaptáveis em Weill e Ross, (2004) e ' x1
+replace: 'As Instituições Federais de Ensino Superior (IFES) constitue' x1
+replace: 'conteúdo mínimo do PDTIC no âmbito do Sistema de Administraç' x1
+replace: 'conduzidos pelo Tribunal de Contas da União (TCU) nas 69 uni' x1
+replace: '(Nascimento et al., 2019; TCU, 2021; 2026)' x1
+replace: 'Fonte: elaborado pelo autor (2026), adaptado de Meyer e Rowa' x1
+replace: '2023-2025' x1
+replace: '2023-2025' x1
+replace: '2023-2025' x1
+replace: '2025-2028' x1
+replace: '2023-2025' x1
+italic: 'decoupling' x1 @ 'Quando devidamente articulado às estraté'
+italic: 'frameworks' x1 @ 'Em contrapartida, o marco regulatório fe'
+italic: 'policy-practice decoupling' x1 @ 'É sobre essa confluência de constrangime'
+italic: 'frameworks' x1 @ 'De forma semelhante, o Guia de Elaboraçã'
+italic: 'frameworks' x1 @ 'Sistematizar o conjunto de normas federa'
+italic: 'frameworks' x1 @ 'Elaborar a Matriz de Conformidade Normat'
+italic: 'frameworks' x1 @ 'A matriz organiza 80 requisitos em quatr'
+italic: 'checklists' x1 @ 'A matriz organiza 80 requisitos em quatr'
+italic: 'decoupling' x1 @ 'A operacionalização da análise por meio '
+move 91-93 -> apos heading 1.1.4; delete 97-99, 173-177
+inserido 1.5 ESTRUTURA DA DISSERTACAO
