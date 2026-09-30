@@ -75,6 +75,9 @@ Cópia de entrega: `Downloads/DISSERTACAO_atualizada_PTT_v6.docx`.
 
 ### Pendências de dissertação (além do app)
 
+Fila acordada em 30/09/2026 para retomar em uma **seção futura de trabalho**
+(estado dos itens 1–8 acima: commits 8f21f01, d6d23cb, e4b37e9).
+
 - Uniformizar "observações" → "Justificativa" (agora Seção 4.3, ex-3.6.3).
 - Apêndice com o mapeamento dos 50 itens CP/NC aos padrões de lacuna.
 - #176: obter do manual o formato da linha "Fonte:" e padronizar.
