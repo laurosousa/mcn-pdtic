@@ -67,6 +67,11 @@ Cópia de entrega: `Downloads/DISSERTACAO_atualizada_PTT_v6.docx`.
    incompatíveis — e Sengik; Lunardi 2023, já incluída como R15). Ambas → Excluir na Etapa 2
    (CE-5). **Figura 1 atualizada**: excluídos na elegibilidade 0→2, incluídos 9→7 (7 de busca
    + 5 manuais), Nota → consolidado em 30/09/2026.
+8. **Seção 2.1.2 alinhada ao protocolo** (30/09, `revisao/ajuste_bases_30-09.py`) — CAPES,
+   SPELL e Google Scholar rebaixados de "busca primária" para consulta complementar de
+   verificação (a aba Buscas só registra Semantic Scholar e SciELO); alíneas a)–c)
+   reorganizadas, Quadro 2 corrigido e box da Figura 1 reescrito
+   ("Registros adicionais por consulta complementar … (n = 0)").
 
 ### Pendências de dissertação (além do app)
 
@@ -78,11 +83,7 @@ Cópia de entrega: `Downloads/DISSERTACAO_atualizada_PTT_v6.docx`.
 - Sufixos de ano no padrão global-BRASIL: iESGo 2024 e as obras de 2011 (Decreto
   7.579; Lei 12.527) citadas por número normativo ficaram sem letra — padronizar na
   revisão com o orientador.
-- **Seção 2.1.2 × aba Buscas**: o texto lista CAPES, SPELL e Google Scholar como bases da
-  Modalidade 1, mas a aba Buscas só registra Semantic Scholar e SciELO (0 resultados);
-  o fluxograma tem box "busca complementar (Google Scholar) (n = 0)" sem registro na
-  planilha. Decidir: registrar as buscas manuais (se ocorreram) ou rebaixar essas bases
-  a "verificação complementar" no texto.
+- Seção 2.1.2 × aba Buscas — concluído em 30/09/2026 (item 8 acima).
 
 ## Feito (itens 1–10)
 
