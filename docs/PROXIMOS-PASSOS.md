@@ -60,6 +60,13 @@ Cópia de entrega: `Downloads/DISSERTACAO_atualizada_PTT_v6.docx`.
    2022b→2022, 2024a→2024, nas entradas e nas 15 citações do corpo) e
    (TCU, 2021) → (TCU, 2021d) — a entrada iGG é "2021d" na sequência BRASIL 2021.
    `updateFields` reativado (SUMÁRIO renumera ao abrir no Word).
+7. **Resolução CI-6 de R08/R14** (30/09, `revisao/resolve_r08_r14_30-09.py`) — R08: registro
+   corrupto confirmado; o trabalho real é Rezende; Santos; Melo (2006, RAP 40(5), p. 771-788,
+   DOI 10.1590/S0034-76122006000500005), fora da janela CI-5; R14: veículo não localizado em
+   Crossref/repositórios/web (únicos próximos: Sengik; Portela 2008 SEGET — autores/ano
+   incompatíveis — e Sengik; Lunardi 2023, já incluída como R15). Ambas → Excluir na Etapa 2
+   (CE-5). **Figura 1 atualizada**: excluídos na elegibilidade 0→2, incluídos 9→7 (7 de busca
+   + 5 manuais), Nota → consolidado em 30/09/2026.
 
 ### Pendências de dissertação (além do app)
 
@@ -70,7 +77,12 @@ Cópia de entrega: `Downloads/DISSERTACAO_atualizada_PTT_v6.docx`.
 - Triagem PRISMA e datas da Seção 2.1 — concluído em 29–30/09/2026 (itens 1 e 5 acima).
 - Sufixos de ano no padrão global-BRASIL: iESGo 2024 e as obras de 2011 (Decreto
   7.579; Lei 12.527) citadas por número normativo ficaram sem letra — padronizar na
-  revisão com o orientador. R08/R14 da planilha seguem pendentes de verificação CI-6.
+  revisão com o orientador.
+- **Seção 2.1.2 × aba Buscas**: o texto lista CAPES, SPELL e Google Scholar como bases da
+  Modalidade 1, mas a aba Buscas só registra Semantic Scholar e SciELO (0 resultados);
+  o fluxograma tem box "busca complementar (Google Scholar) (n = 0)" sem registro na
+  planilha. Decidir: registrar as buscas manuais (se ocorreram) ou rebaixar essas bases
+  a "verificação complementar" no texto.
 
 ## Feito (itens 1–10)
 
