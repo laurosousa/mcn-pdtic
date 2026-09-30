@@ -1,7 +1,7 @@
 # Próximos passos — MCN-PDTIC (app)
 
 Status do desenvolvimento do app em `artifacts/mcn-pdtic`, alinhado a `docs/REQUISITOS-PTT.md`.
-Última atualização: 2026-09-27 (v6 reestruturada).
+Última atualização: 2026-09-30 (revisão PRISMA 2.1 + referências).
 
 ## Dissertação v6 — reestruturação do item A (27/09/2026)
 
@@ -36,14 +36,41 @@ Cópia de entrega: `Downloads/DISSERTACAO_atualizada_PTT_v6.docx`.
    **Abertos por decisão**: #20/#21, #23/#24, #26 (standby do orientador); #176 (exige o
    manual de formatação); #132, #146, #172, #174 (respostas do autor a observações da banca).
 
+### Revisão sistemática e referências (29–30/09/2026)
+
+1. **Triagem real + Figura 1** (29/09, commit 63c6ddc) — quantitativos do fluxograma
+   consolidados; nota da Figura 1 remete ao processo consolidado em 29/09/2026.
+2. **Correções da 2.1.7 + referências faltantes** (29/09, commit 7d5705c).
+3. **Integração das citações da revisão** (30/09, `revisao/integra_citacoes_29-09.py`) —
+   5 citações no corpo (Linhares et al. 2026; Paiva; Nunes; Maciel 2021; Cunha 2023 —
+   órfã resolvida; Cunha; Freitas 2022; Cardoso et al. 2025; Sengik; Lunardi 2023;
+   Schiavi; Behr; Marcolin 2024) + 6 entradas nas Referências; planilha: R10 com DOI
+   confirmado via Crossref, R08/R14 anotadas como pendência CI-6.
+4. **Auditoria Crossref das 122 referências** (30/09) — 34 verificadas direto na fonte;
+   3 "revisar" eram falsos positivos (Creswell 2010, Mintzberg 1979 e Power 1997 são
+   livros clássicos; o Crossref só indexa resenhas com o mesmo título).
+5. **Datas da Seção 2.1** (30/09, `revisao/ajuste_sec21_refs_30-09.py`) — "outubro a
+   dezembro de 2025" → "em 26 e 27 de setembro de 2026" (alinha o texto ao protocolo
+   real registrado na aba Buscas da planilha PRISMA).
+6. **Referências órfãs removidas** (30/09, `revisao/limpa_orfas_30-09.py`, decisão do
+   autor) — 9 entradas sem nenhuma citação no corpo/apêndices (Benbasat 1984; IN
+   GSI/PR nº 1/2020; CGU 2022a e 2020; MGI SISP 2024b; Painel SGD/MGI Power BI 2026;
+   TCU Referencial básico 2020c; CAPES Documento de Área 2019a; Agência Gov Infovia
+   2025): 122 → 113 referências. Sufixos de ano únicos renormalizados (2020a→2020,
+   2022b→2022, 2024a→2024, nas entradas e nas 15 citações do corpo) e
+   (TCU, 2021) → (TCU, 2021d) — a entrada iGG é "2021d" na sequência BRASIL 2021.
+   `updateFields` reativado (SUMÁRIO renumera ao abrir no Word).
+
 ### Pendências de dissertação (além do app)
 
 - Uniformizar "observações" → "Justificativa" (agora Seção 4.3, ex-3.6.3).
 - Apêndice com o mapeamento dos 50 itens CP/NC aos padrões de lacuna.
-- Decidir a triagem PRISMA (título/resumo e leitura integral) e atualizar a Seção 2.1
-  (datas das buscas de 26–27/09/2026 × "outubro a dezembro de 2025" no texto).
 - #176: obter do manual o formato da linha "Fonte:" e padronizar.
 - Objetivo f) ainda menciona "exportação em planilha eletrônica" (em standby — #23/#24).
+- Triagem PRISMA e datas da Seção 2.1 — concluído em 29–30/09/2026 (itens 1 e 5 acima).
+- Sufixos de ano no padrão global-BRASIL: iESGo 2024 e as obras de 2011 (Decreto
+  7.579; Lei 12.527) citadas por número normativo ficaram sem letra — padronizar na
+  revisão com o orientador. R08/R14 da planilha seguem pendentes de verificação CI-6.
 
 ## Feito (itens 1–10)
 
