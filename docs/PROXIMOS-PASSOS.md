@@ -161,10 +161,10 @@ Retomada iniciada — item 1 concluído.
 
 Nenhum no app — os 10 itens de `REQUISITOS-PTT.md` estão concluídos.
 
-Próximo passo da dissertação: **redigir o parágrafo de análise do capítulo de resultados
-citando Santos et al. (2020)** — modelo de maturidade em governança e gestão de TIC para o
-SISP — a partir do mapeamento dos 50 itens CP/NC da MCN aos domínios do modelo
-(`docs/Mapeamento_MCN_x_Modelo_SISP.xlsx`; 13 itens fora do modelo, classificados como GAP).
+Próximo passo da dissertação: ~~redigir o parágrafo de análise do capítulo de resultados
+citando Santos et al. (2020)~~ — **concluído**: o parágrafo está no corpo ([5.7], com o
+mapeamento dos 50 itens CP/NC aos domínios do modelo e os 13 GAP). Em aberto na mesma
+linha: o **apêndice do mapeamento item a item aos 5 padrões de lacuna** (ver fila acima).
 
 ## Ajustes a refletir na dissertação
 
