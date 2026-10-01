@@ -76,9 +76,14 @@ Cópia de entrega: `Downloads/DISSERTACAO_atualizada_PTT_v6.docx`.
 ### Pendências de dissertação (além do app)
 
 Fila acordada em 30/09/2026 para retomar em uma **seção futura de trabalho**
-(estado dos itens 1–8 acima: commits 8f21f01, d6d23cb, e4b37e9).
+(estado dos itens 1–8 acima: commits 8f21f01, d6d23cb, e4b37e9, a097ba1).
+Retomada iniciada — item 1 concluído.
 
-- Uniformizar "observações" → "Justificativa" (agora Seção 4.3, ex-3.6.3).
+- Uniformizar "observações" → "Justificativa" (Seção 4.3) — **concluído**
+  (`revisao/unifica_justificativa_30-09.py`): única ocorrência do campo editada
+  ("…classificação (C, CP, NC, NA ou Não Avaliado) e justificativa."); as ocorrências
+  genéricas de "observação" no texto e as anotações do segundo avaliador (Seção 4.x,
+  validação) foram preservadas por design.
 - Apêndice com o mapeamento dos 50 itens CP/NC aos padrões de lacuna.
 - #176: obter do manual o formato da linha "Fonte:" e padronizar.
 - Objetivo f) ainda menciona "exportação em planilha eletrônica" (em standby — #23/#24).
