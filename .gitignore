@@ -63,3 +63,10 @@ attached_assets/
 
 # Arquivos temporarios de auditoria
 _tmp_*
+
+# Material de trabalho da dissertacao (fica so local)
+docs/revisao/
+docs/*.xlsx
+docs/*.pdf
+docs/auditoria-referencias.*
+docs/cruzamento-citacoes-referencias.md
