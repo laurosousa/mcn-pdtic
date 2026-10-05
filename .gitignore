@@ -60,3 +60,6 @@ Thumbs.db
 # Arquivos anexados e saidas de agentes
 attached_assets/
 .agents/
+
+# Arquivos temporarios de auditoria
+_tmp_*
