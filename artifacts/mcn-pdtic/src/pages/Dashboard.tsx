@@ -49,30 +49,30 @@ export function Dashboard() {
       )}
 
       {/* Header institucional */}
-      <div className="bg-ufrr text-white px-6 py-8 shadow-lg">
+      <div className="bg-ufrr text-white px-4 sm:px-6 py-8 shadow-lg">
         <div className="max-w-6xl mx-auto">
-          <div className="flex items-start justify-between gap-4">
-            <div className="flex items-start gap-4">
+          <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-4">
+            <div className="flex items-start gap-4 min-w-0">
               <div className="flex-shrink-0">
                 <div className="w-16 h-16 rounded-full bg-gold flex items-center justify-center shadow-md">
                   <ClipboardList size={32} className="text-ufrr" />
                 </div>
               </div>
-              <div>
+              <div className="min-w-0">
                 <p className="text-gold font-semibold text-sm tracking-widest uppercase">Produto Técnico-Tecnológico · PROFIAP/CAPES · Área 27</p>
                 <h1 className="text-2xl md:text-3xl font-bold mt-1">MCN-PDTIC · Data-Analytica-Export</h1>
                 <p className="text-green-200 mt-1 text-sm">Matriz de Conformidade Normativa para PDTIC em IFES</p>
                 <p className="text-green-300 text-xs mt-2">Licença CC BY-SA 4.0 · UFRR/PROFIAP · 2026 · Francisco Laurenilson Sousa Silva</p>
               </div>
             </div>
-            <div className="flex-shrink-0 pt-1 flex flex-wrap justify-end gap-2">
+            <div className="md:flex-shrink-0 pt-1 flex flex-wrap md:justify-end gap-2">
               <button
                 onClick={() => downloadEvaluation(state)}
                 className="flex items-center gap-2 px-4 py-2 rounded-lg bg-white/10 hover:bg-white/20 border border-white/20 text-white text-sm font-semibold transition-colors"
                 title="Baixar a avaliação atual em arquivo JSON"
               >
                 <Download size={15} />
-                <span className="hidden sm:inline">Exportar JSON</span>
+                <span>Exportar JSON</span>
               </button>
               <button
                 onClick={() => setShowImportDialog(true)}
@@ -80,7 +80,7 @@ export function Dashboard() {
                 title="Carregar uma avaliação de um arquivo JSON"
               >
                 <Upload size={15} />
-                <span className="hidden sm:inline">Importar JSON</span>
+                <span>Importar JSON</span>
               </button>
               <button
                 onClick={() => setShowNewDialog(true)}
@@ -88,7 +88,7 @@ export function Dashboard() {
                 title="Criar uma nova avaliação — a atual permanece salva na lista"
               >
                 <Plus size={15} />
-                <span className="hidden sm:inline">Nova Avaliação</span>
+                <span>Nova Avaliação</span>
               </button>
             </div>
           </div>
