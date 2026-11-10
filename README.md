@@ -4,7 +4,12 @@
 
 Aplicação web para avaliar a conformidade normativa de Planos Diretores de Tecnologia da Informação e Comunicação (PDTIC) de instituições federais de ensino. São 80 requisitos em quatro dimensões (Normativa, Estratégica, Operacional e Governança), com cálculo do Índice de Conformidade (ICD), relatório e guia de aplicação.
 
-**Acesse:** https://laurosousa.github.io/mcn-pdtic/
+**Acesse:**
+
+- **Edição completa** (inclui a avaliação de referência do PDTIC UFRR 2023–2025, usada na dissertação e no artigo): https://laurosousa.github.io/mcn-pdtic/
+- **Edição CGTIC** (mesma ferramenta, sem os dados da avaliação UFRR): https://laurosousa.github.io/mcn-pdtic/cgtic/
+
+As duas edições vêm do mesmo código. A edição CGTIC é montada com `VITE_EDICAO=cgtic` (`pnpm run build:cgtic`), que substitui o arquivo da avaliação UFRR por um estado vazio e guarda as avaliações do navegador em separado.
 
 ## Registro
 

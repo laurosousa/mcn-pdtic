@@ -1,11 +1,13 @@
 import { EvaluationState, CgdDeliberation, MATRIX_VERSION, REQUIREMENTS_FULL } from '@/data/mcn';
 import { buildStateFromParsed } from '@/lib/evaluationIO';
+import { EDICAO_CGTIC } from '@/lib/edicao';
 import { UFRR_EVALUATION } from '@/data/evaluations/ufrr-pdtic-2023-2025';
 
 // Chaves do localStorage. A v1 guardava UMA avaliação; a v2 guarda a lista
 // (item 6b). A v1 não é apagada após a migração: fica como réplica de segurança.
-export const STORAGE_KEY = 'mcn_pdtic_evaluations_v2';
-export const LEGACY_STORAGE_KEY = 'mcn_pdtic_full_v1';
+// A edição CGTIC guarda as avaliações em chaves próprias, separadas da edição completa.
+export const STORAGE_KEY = EDICAO_CGTIC ? 'mcn_pdtic_cgtic_evaluations_v2' : 'mcn_pdtic_evaluations_v2';
+export const LEGACY_STORAGE_KEY = EDICAO_CGTIC ? 'mcn_pdtic_cgtic_full_v1' : 'mcn_pdtic_full_v1';
 
 export interface EvaluationEntry {
   id: string;

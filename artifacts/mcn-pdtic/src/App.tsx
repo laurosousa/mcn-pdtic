@@ -11,6 +11,7 @@ import { NotFoundPage } from '@/pages/NotFoundPage';
 import { Dimension, DIMENSIONS, DIMENSION_COLOR } from '@/data/mcn';
 import { useEvaluation } from '@/context/EvaluationContext';
 import { REGISTRO } from '@/lib/registro';
+import { EDICAO_CGTIC } from '@/lib/edicao';
 import { LayoutDashboard, BarChart3, FileText, BookOpen, BookMarked, Menu, X, ExternalLink } from 'lucide-react';
 
 type Page = 'dashboard' | Dimension | 'report' | 'guide' | 'analyze';
@@ -65,6 +66,7 @@ function NavBar({ page, setPage }: { page: Page; setPage: (p: Page) => void }) {
               </button>
             ))}
 
+            {!EDICAO_CGTIC && <>
             <div className="w-px h-6 bg-white/20 mx-2" />
 
             <WouterLink
@@ -75,6 +77,7 @@ function NavBar({ page, setPage }: { page: Page; setPage: (p: Page) => void }) {
               <ExternalLink size={14} />
               UFRR 2023-2025
             </WouterLink>
+            </>}
           </div>
 
           <div className="flex items-center gap-3">
@@ -113,6 +116,7 @@ function NavBar({ page, setPage }: { page: Page; setPage: (p: Page) => void }) {
               </button>
             ))}
 
+            {!EDICAO_CGTIC && <>
             <div className="h-px bg-white/20 my-2 mx-3" />
 
             <WouterLink
@@ -124,6 +128,7 @@ function NavBar({ page, setPage }: { page: Page; setPage: (p: Page) => void }) {
               <ExternalLink size={16} />
               Avaliação Pública UFRR
             </WouterLink>
+            </>}
           </div>
         )}
       </div>
@@ -166,7 +171,7 @@ function App() {
             <AppContent />
           </Route>
           <Route path="/avaliacoes/ufrr-pdtic-2023-2025">
-            <UFRRPublicEvalPage />
+            {EDICAO_CGTIC ? <Dashboard /> : <UFRRPublicEvalPage />}
           </Route>
           <Route>
             <NotFoundPage />

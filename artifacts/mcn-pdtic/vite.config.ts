@@ -37,6 +37,10 @@ export default defineConfig({
   ],
   resolve: {
     alias: {
+      // Edição CGTIC: o módulo com a avaliação da UFRR é trocado por um estado vazio.
+      ...(process.env.VITE_EDICAO === "cgtic"
+        ? { "@/data/evaluations/ufrr-pdtic-2023-2025": path.resolve(import.meta.dirname, "src/data/evaluations/sem-dados.ts") }
+        : {}),
       "@": path.resolve(import.meta.dirname, "src"),
       "@assets": path.resolve(import.meta.dirname, "..", "..", "attached_assets"),
     },

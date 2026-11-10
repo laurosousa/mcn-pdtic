@@ -33,6 +33,11 @@ jobs:
           BASE_PATH: /mcn-pdtic/
           NODE_ENV: production
         run: pnpm run build
+      - name: Montar a edição CGTIC (sem os dados da avaliação UFRR 2023–2025)
+        working-directory: artifacts/mcn-pdtic
+        env:
+          NODE_ENV: production
+        run: pnpm run build:cgtic && cp -r dist/cgtic dist/public/cgtic
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
