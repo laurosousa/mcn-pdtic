@@ -3,6 +3,7 @@ import { DIMENSIONS, DIMENSION_COLOR, CLASSIFICATIONS, CLASSIFICATION_COLOR, COM
 import { IndexGauge } from '@/components/IndexGauge';
 import { ComplianceBadge } from '@/components/ComplianceBadge';
 import { Download, FileText, AlertTriangle, CheckCircle, AlertCircle } from 'lucide-react';
+import { REGISTRO } from '@/lib/registro';
 import { downloadEvaluation } from '@/lib/evaluationIO';
 
 export function ReportPage() {
@@ -90,9 +91,10 @@ export function ReportPage() {
   const exportTextReport = () => {
     const lines: string[] = [];
     lines.push('================================================================================');
-    lines.push('MCN-PDTIC | MATRIZ DE CONFORMIDADE NORMATIVA PARA PDTIC EM IFES');
+    lines.push('MCN-PDTIC | MATRIZ DE CONFORMIDADE NORMATIVA PARA PLANOS DIRETORES DE TIC');
     lines.push(MATRIX_VERSION);
-    lines.push('Data-Analytica-Export · PROFIAP/CAPES Área 27 · CC BY-SA 4.0');
+    lines.push(`Registro INPI ${REGISTRO.processo} · Titular: ${REGISTRO.titular}`);
+    lines.push(`Autores: ${REGISTRO.autores}`);
     lines.push('Dissertação: "Matriz de Conformidade Normativa para PDTIC: proposta de');
     lines.push('instrumento de avaliação na UFRR" · Francisco Laurenilson Sousa Silva (2026)');
     lines.push('================================================================================');
@@ -188,7 +190,8 @@ export function ReportPage() {
     lines.push(`Responsáveis    : ${state.cgdDeliberation?.responsibles || '(a preencher pelo CGD)'}`);
     lines.push('');
     lines.push('================================================================================');
-    lines.push(`Relatório gerado pelo MCN-PDTIC | Data-Analytica-Export · ${new Date().toLocaleString('pt-BR')}`);
+    lines.push(`Relatório gerado pelo MCN-PDTIC (INPI ${REGISTRO.processo}) · ${new Date().toLocaleString('pt-BR')}`);
+    lines.push(REGISTRO.direitos);
     lines.push('================================================================================');
 
     const blob = new Blob([lines.join('\n')], { type: 'text/plain;charset=utf-8' });

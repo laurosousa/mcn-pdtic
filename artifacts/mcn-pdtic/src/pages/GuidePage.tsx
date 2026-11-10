@@ -158,7 +158,7 @@ CICLO DE REVISÃO RECOMENDADO:
 Recomenda-se a revisão anual da MCN, em consonância com o ciclo de revisão do próprio PDTIC e as atualizações normativas do SISP.
 
 CITAÇÃO DO INSTRUMENTO:
-SILVA, Francisco Laurenilson Sousa. MCN-PDTIC: Matriz de Conformidade Normativa para PDTIC em IFES — Data-Analytica-Export. Boa Vista: UFRR/PROFIAP, 2026. Licença Creative Commons BY-SA 4.0.`,
+ALVES, Victor Hugo Lima; SILVA, Francisco Laurenilson Sousa. MCN-PDTIC: Matriz de Conformidade Normativa para Planos Diretores de TIC. Boa Vista: Universidade Federal de Roraima, 2026. Programa de computador. Registro INPI: BR512026009724-0.`,
     },
     {
       id: 8,
@@ -186,8 +186,16 @@ O painel reúne de 3 a 4 gestores de TIC de IFES da região Norte, de 3 a 4 prof
       color: '#E65100',
       content: `PRODUTO TÉCNICO-TECNOLÓGICO (PTT)
 Tipo: Software/Aplicativo — Área 27 (Administração Pública), CAPES
-Licença: Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
-Plataforma: Aplicação web de acesso aberto, hospedada em ambiente Replit
+Plataforma: Aplicação web de acesso aberto, publicada em laurosousa.github.io/mcn-pdtic
+
+REGISTRO DE PROGRAMA DE COMPUTADOR (INPI):
+Processo: BR512026009724-0
+Título: MCN-PDTIC: Matriz de Conformidade Normativa para Planos Diretores de TIC
+Titular: Universidade Federal de Roraima
+Autores: Victor Hugo Lima Alves; Francisco Laurenilson Sousa Silva
+Data de criação: 27/04/2026 · Certificado expedido em 03/11/2026
+Base legal: Lei nº 9.609/1998
+© 2026 Universidade Federal de Roraima. Todos os direitos reservados.
 
 VINCULAÇÃO À PESQUISA:
 Este PTT é o Produto Técnico-Tecnológico derivado da dissertação de mestrado:
@@ -197,8 +205,8 @@ Instituição: Universidade Federal de Roraima (UFRR)
 Período: 2026
 
 AUTORIA E ORIENTAÇÃO:
-Autor: Francisco Laurenilson Sousa Silva
-Orientador: Prof. Dr. Victor Hugo Lima Alves
+Autores do programa (INPI): Victor Hugo Lima Alves; Francisco Laurenilson Sousa Silva
+Na dissertação: Francisco Laurenilson Sousa Silva (mestrando) e Prof. Dr. Victor Hugo Lima Alves (orientador)
 Instituição: UFRR / PROFIAP
 
 DADOS TÉCNICOS:

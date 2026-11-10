@@ -10,6 +10,7 @@ import { UFRRPublicEvalPage } from '@/pages/UFRRPublicEvalPage';
 import { NotFoundPage } from '@/pages/NotFoundPage';
 import { Dimension, DIMENSIONS, DIMENSION_COLOR } from '@/data/mcn';
 import { useEvaluation } from '@/context/EvaluationContext';
+import { REGISTRO } from '@/lib/registro';
 import { LayoutDashboard, BarChart3, FileText, BookOpen, BookMarked, Menu, X, ExternalLink } from 'lucide-react';
 
 type Page = 'dashboard' | Dimension | 'report' | 'guide' | 'analyze';
@@ -42,7 +43,7 @@ function NavBar({ page, setPage }: { page: Page; setPage: (p: Page) => void }) {
               <BarChart3 size={14} className="text-ufrr" />
             </div>
             <span className="font-bold text-sm hidden sm:block">MCN-PDTIC</span>
-            <span className="text-green-300 text-xs hidden lg:block">| Data-Analytica-Export</span>
+            
           </div>
 
           {/* Desktop nav */}
@@ -146,6 +147,12 @@ function AppContent() {
     <div className="min-h-screen bg-gray-50">
       <NavBar page={page} setPage={setPage} />
       <main>{renderPage()}</main>
+      <footer className="border-t border-gray-200 bg-white mt-10" data-testid="footer-registro">
+        <div className="max-w-6xl mx-auto px-4 py-5 flex flex-col md:flex-row md:items-center md:justify-between gap-2 text-xs text-gray-500">
+          <span><strong className="text-gray-700">{REGISTRO.titulo}</strong></span>
+          <span>Registro INPI nº {REGISTRO.processo} · {REGISTRO.direitos}</span>
+        </div>
+      </footer>
     </div>
   );
 }

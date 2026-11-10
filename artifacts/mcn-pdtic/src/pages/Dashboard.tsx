@@ -8,6 +8,7 @@ import { ImportEvaluationDialog } from '@/components/ImportEvaluationDialog';
 import { NewEvaluationDialog } from '@/components/NewEvaluationDialog';
 import { SavedEvaluations } from '@/components/SavedEvaluations';
 import { MatrixMaintenanceCard } from '@/components/MatrixMaintenanceCard';
+import { REGISTRO } from '@/lib/registro';
 import { downloadEvaluation } from '@/lib/evaluationIO';
 
 export function Dashboard() {
@@ -60,9 +61,14 @@ export function Dashboard() {
               </div>
               <div className="min-w-0">
                 <p className="text-gold font-semibold text-sm tracking-widest uppercase">Produto Técnico-Tecnológico · PROFIAP/CAPES · Área 27</p>
-                <h1 className="text-2xl md:text-3xl font-bold mt-1">MCN-PDTIC · Data-Analytica-Export</h1>
-                <p className="text-green-200 mt-1 text-sm">Matriz de Conformidade Normativa para PDTIC em IFES</p>
-                <p className="text-green-300 text-xs mt-2">Licença CC BY-SA 4.0 · UFRR/PROFIAP · 2026 · Francisco Laurenilson Sousa Silva</p>
+                <h1 className="text-2xl md:text-3xl font-bold mt-1">MCN-PDTIC</h1>
+                <p className="text-green-100 mt-1 text-base">{REGISTRO.tituloCurto}</p>
+                <p className="text-green-200 text-xs mt-2">Autores: Victor Hugo Lima Alves e Francisco Laurenilson Sousa Silva · Titular: {REGISTRO.titular}</p>
+                <div className="inline-block mt-3 px-3 py-2 rounded-md bg-white/10 border border-white/20 text-white" data-testid="text-inpi">
+                  <p className="text-[11px] font-semibold tracking-widest uppercase text-gold">Registro INPI</p>
+                  <p className="text-sm font-semibold">Processo nº {REGISTRO.processo}</p>
+                  <p className="text-xs text-green-200">Programa de computador (Lei nº 9.609/1998)</p>
+                </div>
               </div>
             </div>
             <div className="md:flex-shrink-0 pt-1 flex flex-wrap md:justify-end gap-2">
