@@ -5,7 +5,7 @@ import { downloadEvaluation } from '@/lib/evaluationIO';
 import { EvaluationEntry, entryLabel, shortMatrixVersion } from '@/lib/evaluationStore';
 import { UFRR_EVALUATION } from '@/data/evaluations/ufrr-pdtic-2023-2025';
 import { NewEvaluationDialog } from '@/components/NewEvaluationDialog';
-import { EDICAO_CGTIC } from '@/lib/edicao';
+import { EDICAO_PUBLICA } from '@/lib/edicao';
 import {
   DIMENSIONS,
   CLASSIFICATIONS,
@@ -318,7 +318,7 @@ export function SavedEvaluations() {
             );
           })}
 
-          {!EDICAO_CGTIC && <button
+          {!EDICAO_PUBLICA && <button
             onClick={() => setShowUfrrDialog(true)}
             className="w-full flex items-center gap-3 p-4 rounded-lg border-2 border-dashed border-ufrr/40 hover:border-ufrr hover:bg-ufrr/5 text-left transition-colors"
           >

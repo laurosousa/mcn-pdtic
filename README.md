@@ -6,10 +6,10 @@ Aplicação web para avaliar a conformidade normativa de Planos Diretores de Tec
 
 **Acesse:**
 
-- **Edição completa** (inclui a avaliação de referência do PDTIC UFRR 2023–2025, usada na dissertação e no artigo): https://laurosousa.github.io/mcn-pdtic/
-- **Edição CGTIC** (mesma ferramenta, sem os dados da avaliação UFRR): https://laurosousa.github.io/mcn-pdtic/cgtic/
+- **Edição pública** (para divulgação; sem dados de avaliação de nenhuma instituição): https://laurosousa.github.io/mcn-pdtic/
+- **Edição completa** (inclui a avaliação de referência do PDTIC UFRR 2023–2025, usada na dissertação e no artigo): https://laurosousa.github.io/mcn-pdtic/ufrr/
 
-As duas edições vêm do mesmo código. A edição CGTIC é montada com `VITE_EDICAO=cgtic` (`pnpm run build:cgtic`), que substitui o arquivo da avaliação UFRR por um estado vazio e guarda as avaliações do navegador em separado.
+As duas edições vêm do mesmo código. A edição pública é a montagem padrão (`pnpm run build`), que substitui o arquivo da avaliação UFRR por um estado vazio. A edição completa é montada com `pnpm run build:completa` (`VITE_EDICAO=completa`). Cada edição guarda as avaliações do navegador em separado.
 
 ## Registro
 
